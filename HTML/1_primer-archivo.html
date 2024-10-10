@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jugando con VScode</title>
     <style>
-        span{
+        span {
             color: red;
             font-size: 2rem;
         }
@@ -17,8 +17,10 @@
 <body>
 
     <h1>Hola, soy un encabezado H1</h1>
+
     <p>
         Hola mundo, mi primer código HTML
+        que
     </p>
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Spiderman.JPG" width="200">
@@ -28,31 +30,48 @@
 
 
 
-    <h2>This will be not translated. </h2>
-    <p class="notranslate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-
 
     <h2>This will be not translated. </h2>
+    <p class="notranslate">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the 1500s
 
-    <p translate="no">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+
+    <h2>This will be not translated. </h2>
+
+    <p translate="no">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries</p>
 
     <br>
 
 
-        <h2>This will be not translated. </h2>
-    <span translate="no">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</span>
+    <h2>This will be not translated. </h2>
+    <span translate="no">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries</span>
 
     <br><br><br><br>
 
 
     <h2>This will be translated. </h2>
-    <span >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,m.</span>
+    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,m.</span>
 
 
 
-<!-- Actividad: revise el código html y verifique que etiquetas están mal cerradas, corrija el error usando los atajos de tclado de VScode -->
+    <!-- Actividad: revise el código html y verifique que etiquetas están mal cerradas, corrija el error usando los atajos de tclado de VScode -->
 
-    <!-- <section>
+    <section>
 
        
         <article>
@@ -82,13 +101,13 @@
 
         </article>
 
-    </section> -->
+    </section>
 
 
-<!-- Solución al ejercicio anterior usando el atajo Ctrl+Shift+L Select all occurrences of current selection, seleccionando justo dos caracteres del error , ejemplo de elementos que no se deben traducir del inglés, solución con etiquetas semánticas, clases y JavaScript -->
+    <!-- Solución al ejercicio anterior usando el atajo Ctrl+Shift+L Select all occurrences of current selection, seleccionando justo dos caracteres del error , ejemplo de elementos que no se deben traducir del inglés, solución con etiquetas semánticas, clases y JavaScript -->
     <section>
 
-       
+
         <article>
             <a href="<#"></a><span class="item__name">a</span></a>
 
@@ -108,7 +127,7 @@
 
 
         <article>
-            <a href="<#"><span class="item__name">area</span></a>
+            <a href="#">><span class="item__name">area</span></a>
 
         </article>
         <article>
@@ -123,7 +142,7 @@
 
 
 
-    <!-- <script>
+    <script>
         // Si los spans están dentro de un article o un contenedor, especificamos el contenedor en el querySelectorAll
         const items = document.querySelectorAll('article a span');
 
@@ -134,7 +153,7 @@
 
 
          // Si los spans están dentro de un article o un contenedor, especificamos el contenedor en el querySelectorAll
-         const items = document.querySelectorAll('.item__name');
+         items = document.querySelectorAll('.item__name');
 
          // Iteramos sobre cada elemento span y aplicamos el atributo translate="no"
          items.forEach(item => {
@@ -142,16 +161,16 @@
          });
  
 
-    </script> -->
+    </script>
 
     <!-- Usando atajo Ctrl+Alt+ ↑ / ↓ Insert cursor above / below  -->
 
-    <!-- <div class ....></div>
-    <div class ....></div>
-    <div class ....></div>
-    <div class ....></div>
-    <div class ....></div>
-    <div class ....></div> -->
+    <div class ="div-container"></div>
+    <div class ="div-container"></div>
+    <div class ="div-container"></div>
+    <div class ="div-container"></div>
+    <div class ="div-container"></div>
+    <div class ="div-container"></div>
 
 
 

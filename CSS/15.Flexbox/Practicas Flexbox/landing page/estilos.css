@@ -109,7 +109,8 @@ body{
     border-radius: 6px;
 }
 
-@media screen and (max-width:900px) {
+
+@media screen and (width <= 900px) {
     
     :root{
         --height-nav: 100px;
@@ -148,4 +149,5 @@ body{
     .hero__paragraph{
         font-size: 1rem;
     }
-}
+
+} 

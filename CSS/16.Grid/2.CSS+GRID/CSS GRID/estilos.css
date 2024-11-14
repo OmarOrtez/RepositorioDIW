@@ -22,10 +22,10 @@ body{
     display: grid;
 
    /* COLUMNS  */
-    /* grid-template-columns: 100px 2cm 30%; */
+    /* grid-template-columns: 1fr 2cm 30%; */
 
      /* repeat:  parámetros : cantidad de columnas y el tamanio */
-    /* grid-template-columns:repeat(6,1fr); */
+    grid-template-columns:repeat(6,1fr);
 
     /* Usa el espacio disponible para las dos fracciones */
     /* grid-template-columns:200px 1fr 1fr ; */
@@ -69,7 +69,7 @@ body{
      
     /* FLOWS- FLUJO */
 
-   grid-auto-flow:column;
+   /* grid-auto-flow:column; */
     /* grid-auto-flow:column dense; */
     /* grid-auto-flow: column; 
     grid-auto-columns: 1fr;

@@ -72,7 +72,7 @@ div.box:only-of-type{
 
 
 */
-
+/*pinta de abajo hacia ariba  solo los pares */
 /* .box:nth-last-of-type(odd){
     background: tomato;
 } */

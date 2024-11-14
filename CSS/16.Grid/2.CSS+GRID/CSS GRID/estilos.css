@@ -83,17 +83,21 @@ body{
 
 
     /* Habilitar para explicar el posiconamiento */
-    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
 
     /* Si se elimina la fila se crea una fila implícita */
     
 }    
 
+
+
+
+
 .grid__item{
     color: #fff;
     font-size: 3rem;  /*el height es auto, depende del font-size */
     text-align: center;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     background: crimson;
 }
 
@@ -103,14 +107,16 @@ body{
         /* Posicionamiento por líneas */
     /* grid-column-start: 3; */
     /* grid-column-end: 5; */
-    /* grid-row-start: 3; */
-    /* grid-row-end: 5;  */
+    grid-row-start: 3;
+    grid-row-end: 5; 
+
+
 
     /* ShortHand de grid-column-start / end  */
 
     /* grid-column: start-line / end-line; */
 
-    /* grid-column: 3/5; */
+    grid-column: 3/5;
 
 }
 
